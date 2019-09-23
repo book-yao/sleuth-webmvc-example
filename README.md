@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Basic example showing distributed tracing across Spring Boot apps
 This is an example app where two Spring Boot (Java) services collaborate on an http request. Notably, timing of these requests are recorded into [Zipkin](http://zipkin.io/), a distributed tracing system. This allows you to see the how long the whole operation took, as well how much time was spent in each service.
 
@@ -151,5 +150,3 @@ works with brave. It can also use transports besides http to send data to a Zipk
 Contact us on [gitter](https://gitter.im/openzipkin/zipkin) if you need more help!
 =======
 # sleuth-webmvc-example
-spring-cloud-sleuth测试
->>>>>>> 479ed84149ce2895ad941473f1be8ef414771dbb
