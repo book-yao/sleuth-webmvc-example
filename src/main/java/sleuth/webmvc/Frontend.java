@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +15,7 @@ import sleuth.service.ExecutorTestService;
 import sleuth.service.TestService;
 
 @EnableAutoConfiguration
-//@EnableScheduling
+@EnableScheduling
 @RestController
 @CrossOrigin // So that javascript can be hosted elsewhere
 public class Frontend {
